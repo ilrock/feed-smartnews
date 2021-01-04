@@ -2,20 +2,14 @@
   "name": "feed-smartnews",
   "version": "0.0.12",
   "description": "The SmartFormat Feed generator for Node.js",
-  "main": "lib/feed.js",
-  "types": "lib/feed.d.ts",
+  "main": "src/feed.js",
   "repository": "https://github.com/up-tri/feed-smartnews.git",
   "author": "up-tri <contact@up-tri.me>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
-    "install": "npm run build",
-    "prepublish": "npm run build"
+    "install": "node src/feed.js",
   },
   "dependencies": {
     "feed": "^3.0.0"
-  },
-  "devDependencies": {
-    "typescript": "^3.0.1"
   }
 }
