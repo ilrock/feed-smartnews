@@ -1,5 +1,5 @@
 {
-  "name": "permalink-lib",
+  "name": "smartnews-feed",
   "version": "1.0.0",
   "description": "A simple library to generate permalinks for the various applications",
   "main": "src/feed.js",
