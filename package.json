@@ -1,15 +1,27 @@
 {
-  "name": "feed-smartnews",
-  "version": "0.0.12",
-  "description": "The SmartFormat Feed generator for Node.js",
+  "name": "permalink-lib",
+  "version": "1.0.0",
+  "description": "A simple library to generate permalinks for the various applications",
   "main": "src/feed.js",
-  "repository": "https://github.com/up-tri/feed-smartnews.git",
-  "author": "up-tri <contact@up-tri.me>",
-  "license": "MIT",
   "scripts": {
-    "install": "node src/feed.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matters-media/permalink-lib.git"
+  },
+  "author": "mattersmedia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matters-media/permalink-lib/issues"
+  },
+  "homepage": "https://github.com/matters-media/permalink-lib#readme",
   "dependencies": {
     "feed": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
