@@ -2,7 +2,7 @@
   "name": "smartnews-feed",
   "version": "1.0.0",
   "description": "A simple library to generate permalinks for the various applications",
-  "main": "src/feed.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d dist"
